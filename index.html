@@ -12,7 +12,34 @@
 <body>
     <section class="main">
         <div class="container">
-          
+            <form class="grocery-form">
+          <h3>Grocery Bud</h3>
+          <p class="alert"></p>
+          <div class="form-control">
+            <input type="text" id="grocery" placeholder="e.g eggs" />
+            <button type="submit" class="submit-btn">submit</button>
+          </div>
+          </form>
+
+          <!--- list ---->
+          <div class="grocery-container">
+            <div class="grocery-list">
+                <article class="grocery-item">
+                  <p class="title">item</p>
+                <div class="btn-container">
+                  <button type="button" class="edit-btn">
+                    <i class="fas fa-edit"></i>
+                  </button>  
+                  <button type="button" class="delete-btn">
+                    <i class="fas fa-trash"></i>
+                  </button>
+                </div>    
+                </article>
+            </div>
+
+            <!--- button ---->
+            <button type="button" class="clear-btn">clear List</button>
+          </div>
         </div>
     </section>
 

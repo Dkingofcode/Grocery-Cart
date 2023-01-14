@@ -10,13 +10,36 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+section.main{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 
+.container{
+   border: 2px solid;
+   width: 50%;
+}
 
+.btn{
+    text-transform: uppercase;
+    background: transparent;
+    color: black;
+    padding: 6px;
+    display: inline-block;
 
+}
 
+.alert-danger{
+  color: #cf6f43;
+  background-color: white;
+}
 
-
-
+.alert-success{
+    color: #155724;
+    background: white;
+}
 
 
 
